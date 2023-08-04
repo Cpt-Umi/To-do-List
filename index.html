@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Umair Khan" />
+    <meta name="description" content="To-Do List" />
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <title>To-Do Or Not To-Do</title>
+  </head>
+  <body>
+    <!-- Main Container -->
+    <div class="container">
+      <!-- The Div for App -->
+      <div class="app">
+        <h2>To-Do List <img src="css/images/icon.png" alt="icon" /></h2>
+        <!-- The Input Field -->
+        <div class="row">
+          <input
+            type="text"
+            placeholder="Add a Task"
+            id="input-box"
+            name="input-box"
+          />
+          <button type="submit" id="add-btn" onclick="addTask()">Add</button>
+        </div>
+        <!-- List of Tasks -->
+        <ul id="list-container">
+          <!-- <li class="checked">Task 1</li>
+          <li>Task 2</li>
+          <li>Task 3</li> -->
+        </ul>
+      </div>
+    </div>
+    <script src="js/script.js"></script>
+  </body>
+</html>
